@@ -3,7 +3,7 @@ require 'Faker'
 class Contact
   attr_accessor :id, :first_name, :last_name, :phone_number, :email
 
-  def initialize args
+  def initialize(args)
     @id = args[:id]
     @first_name = args[:first_name]
     @last_name = args[:last_name]
